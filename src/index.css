@@ -4,8 +4,8 @@
   font-weight: 400;
   text-align: center;
   /*color-scheme: light dark;*/
-  color: rgba(35, 13, 144, 0.87);
-  background: url('./image/download1.jpeg');
+  color: rgba(180, 179, 186, 0.87);
+  background: url('./image/gta2.jpg');
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -31,8 +31,9 @@ body {
 }
 
 h1 {
-  font-size: 8.2em;
-  line-height: 1
+  font-size: 6.2em;
+  line-height: 1;
+  
 }
 h3{
   font-size:x-large;
@@ -53,7 +54,7 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: black;
 }
 
 button:focus,
