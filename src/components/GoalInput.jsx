@@ -28,21 +28,26 @@ const GoalInput = ({ addGoal }) => {
   };
 
   return (
+  <div class="select">
     <form onSubmit={handleSubmit}>
       <input
         type="text"
         value={goal}
         onChange={handleChange}
         placeholder="Add a new goal"
-      />
-      <select value={priority} onChange={handlePriorityChange}>
+        />
+      
+      
+      
+      <input type="date" value={dueDate} onChange={handleDueDateChange} />
+      <select class="select-class" value={priority} onChange={handlePriorityChange}>
         <option value="High">High</option>
         <option value="Medium">Medium</option>
         <option value="Low">Low</option>
       </select>
-      <input type="date" value={dueDate} onChange={handleDueDateChange} />
       <button type="submit">Add Goal</button>
     </form>
+    </div>
   );
 };
 
